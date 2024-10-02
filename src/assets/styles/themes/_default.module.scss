@@ -1,0 +1,12 @@
+@use '../themes/colors' as *;
+
+html[data-theme="default"] {
+    --background-color: #{$body-background};
+    --color: #{$black-1};
+
+    --primary-color: #{$blue-1};
+    --secondary-color: #{$grey-3};
+
+    --card-background-color: #{$white-1};
+    --card-border-color: #{$grey-2};
+}

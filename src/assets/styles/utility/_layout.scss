@@ -1,0 +1,17 @@
+@import '../themes/default.module';
+
+//
+// Layout
+// --------------------------------------------------
+// Specific to project -- ex. home page wrapper, contact wrapper, blog wrapper etc
+//
+html,
+body {
+  background: var(--background-color);
+  overscroll-behavior: none;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

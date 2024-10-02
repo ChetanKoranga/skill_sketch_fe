@@ -1,0 +1,5 @@
+@use './default.module' as default;
+
+$theme-variables: (
+  default: default,
+);
